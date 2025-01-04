@@ -38,6 +38,6 @@ describe('System Tests', () => {
     };
     const response = await got(BASE_URL, options);
     assert.strictEqual(response.statusCode, 200);
-    assert.strictEqual(response.body, 'Hello Hermann!');
+    assert.strictEqual(response.body, 'Hello Hermannnnnn!');
   });
 });
